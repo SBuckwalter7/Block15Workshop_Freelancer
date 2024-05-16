@@ -1,0 +1,26 @@
+.list{
+    border: 10px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+
+}
+
+.listHeader{
+    border: 10px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+
+.top{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(161, 255, 202);
+}
