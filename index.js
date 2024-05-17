@@ -102,7 +102,7 @@ function createCard({name, occ, price}){
 //BUT I WANT IT TO DELAY 3 SECONDS so we use this setTimeout function
 setTimeout(() => {
     createCard({ name: "Carol", occ: "programmer", price: 70 });
-}, 3000);
+}, 2000);
 
 
 //////working on this
@@ -140,5 +140,5 @@ function createRandom(){
     createCard({name: randomName, occ: randomOcc, price: randomPrice})
 
 }
-setInterval(createRandom, 2000)
+setInterval(createRandom, 4000)
 //createRandom()
